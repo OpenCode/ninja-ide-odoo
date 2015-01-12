@@ -1,0 +1,22 @@
+{
+  "xml": {
+    "field": "<field name='%cursor%' />",
+    "tree": "<record id='%cursor%' model='ir.ui.view'>\n    <field name='name'></field>\n    <field name='model'></field>\n    <field name='type'>tree</field>\n    <field name='arch' type='xml'>\n        <tree string=''>\n            <field name='name'/>\n        </tree>\n    </field>\n</record>",
+    "tree_in": "<record id='' model='ir.ui.view'>\n    <field name='name'></field>\n    <field name='model'></field>\n    <field name='inherit_id' ref=''/>\n    <field name='arch' type='xml'>\n        <field name='name' />\n    </field>\n</record>",
+    "form": "<record id='%cursor%' model='ir.ui.view'>\n    <field name='name'></field>\n    <field name='model'></field>\n    <field name='type'>form</field>\n    <field name='arch' type='xml'>\n        <form string=''>\n            <field name='name'/>\n        </form>\n    </field>\n</record>",
+    "form_in": "<record id='' model='ir.ui.view'>\n    <field name='name'></field>\n    <field name='model'></field>\n    <field name='inherit_id' ref=''/>\n    <field name='arch' type='xml'>\n        <field name='name' />\n    </field>\n</record>",
+    "xpath": "<xpath expr='%cursor%' position='%cursor%'>\n    \n</xpath>",
+    "menu": "<menuitem\n    id='%cursor%'\n    name=''\n    string=''\n    action=''\n    parent=''/>",
+    "search": "<record id='%cursor%' model='ir.ui.view'>\n    <field name='name'></field>\n    <field name='model'></field>\n    <field name='type'>search</field>\n    <field name='arch' type='xml'>\n        <search string=''>\n            <field name='name'/>\n        </search>\n    </field>\n</record>",
+    "search_in": "<record id='%cursor%' model='ir.ui.view'>\n    <field name='name'></field>\n    <field name='model'></field>\n    <field name='inherit_id' ref=''/>\n    <field name='arch' type='xml'>\n        <field name='name' >\n    </field>\n</record>",
+    "action": "<record id='%cursor%' model='ir.actions.act_window'>\n    <field name='name'></field>\n    <field name='type'>ir.actions.act_window</field>\n    <field name='res_model'></field>\n    <field name='view_type'>form</field>\n    <field name='view_mode'>tree,form</field>\n    <field name='view_id' ref=''/>\n    <field name='help'></field>\n</record>",
+    "button": "<button name='%cursor%' states='' string='' type='object' icon=''/>",
+    "button_action": "<button name='%(%cursor%)d' states='' string='' type='action' icon=''/>",
+    "notebook": "<notebook>\n    <page string='%cursor%'>\n    </page>\n</notebook>",
+    "filter": "<filter domain='[('%cursor%', '', '')]' icon='' string='' help=''/>",
+    "group_by": "<filter string='%cursor%' context='{'group_by':'%cursor%'}'/>",
+    "context": "<field name='context'>{'%cursor%':}</field>",
+    "domain": "<field name='domain'>[('%cursor%','','')]</field>",
+    "attrs": "attrs='{'invisible':[('%cursor%','','')],'readonly':[('','','')],'required':[('','','')]}'"
+  }
+}
