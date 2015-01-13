@@ -1,0 +1,20 @@
+{
+  "py":{
+    "raise8": "raise Warning(_('%cursor%'))",
+    "pool8": "self.env['%cursor%']",
+    "char8": "fields.Char(cursor%)",
+    "text8": "fields.Text(%cursor%)",
+    "bool8": "fields.Boolean()",
+    "html8": "fields.HTML(%cursor%)",
+    "integ": "fields.Integer(%cursor%)",
+    "float": "fields.Float(digits=(x, y))",
+    "date8": "fields.Date()",
+    "datetime8": "fields.Datetime()",
+    "binary": "fields.Binary()",
+    "selection8": "fields.Selection([(%cursor%'a', 'A')])",
+    "reference": "fields.Reference([('model_name', '%cursor%')])",
+    "m2o8": "fields.Many2one('%cursor%')",
+    "o2m8": "fields.One2many('model_name', '%cursor%')",
+    "class8" : "class %cursor%(models.Model):\n\n\t_name = ''\n\t",
+    "wizclass8" : "class %cursor%(models.AbstractModel):\n\n\t_name = ''\n\t"
+    }}

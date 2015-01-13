@@ -1,0 +1,28 @@
+{
+  "py":{
+    "raise7": "raise orm.except_orm(_('%cursor%'), _(''))",
+    "browse": "browse(cr, uid, ids, context)",
+    "defcreate": "def create(self, cr, uid, vals, context):",
+    "create": "create(cr, uid, vals, context)",
+    "defwrite": "def write(cr, uid, ids, vals, context):",
+    "write": "write(cr, uid, ids, context)",
+    "defunlink":" def %cursor%unlink(self, cr, uid, ids, context=None):",
+    "unlink":" unlink(cr, uid, ids, context)",
+    "try": "try: \r\n    %cursor% \r\nexcept:",
+    "columns": "_columns:\r\n:    \n{%cursor%}",
+    "char": "fields.char('', size=64),",
+    "text": "fields.text(''),",
+    "bool": "fields.boolean(''),",
+    "integ": "fields.integer(''),",
+    "float": "fields.float(''),",
+    "m2o": "fields.many2one('',''),",
+    "o2m": "fields.one2many('','',''),",
+    "related": "fields.related('',type='',string='')",
+    "function": "fields.function(_%cursor, string='', store=False, multi='', help=''),",
+    "deffunction": "def _%cursor%(self, cr, uid, ids, field_name, arg, context={}):",
+    "date": "fields.date('%cursor%'),",
+    "datetime": "fields.datetime('%cursor%'),",
+    "selection": "fields.selection(\n\t(('%cursor%', ''),('', '')),\n\t''),",
+    "class" : "class %cursor%(orm.Model):\n\n\t_name = ''\n\t_description = ''\n",
+    "wizclass": "class %cursor%(orm.TransientModel):\n\n\t_name = ''\n\t_description = ''\n"
+    }}
