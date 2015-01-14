@@ -1,5 +1,9 @@
 {
-  "py": {
+  "py":{
     "pdb": "import pdb; pdb.set_trace()",
-  }
-}
+    "openerp": "{\r\n    'name': '',\n    'version': '',\n    'category': '',\n    'description': '',\n    'author': ' <>',\n    'website': '',\n    'license': 'AGPL-3',\n    'depends': [],\n    'init_xml': [],\n    'update_xml': [],\n    'demo_xml': [],\n    'active': False,\n    'installable': True\n}",
+    "init": "from . import %cursor%",
+    "super": "super(class_name, self).function(cr, uid, ids, context)",
+    "raise": "raise osv.except_osv(_('%cursor%'), _(''))",
+    "pool": "self.pool['%cursor%']"
+  }}
